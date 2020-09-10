@@ -1,0 +1,11 @@
+# python
+Calculadora de salario para profissionais liberais
+
+print("Digite o valor do salario desejado:")
+salario=float(input())
+semana=salario/4
+dia=semana/5
+hora=dia/8
+print("Você precisa ganhar por semana: ",semana)
+print("Você precisa ganhar por dia: ",dia)
+print("Você precisa ganhar por hora: ",hora)
