@@ -1,0 +1,10 @@
+print("Digite seu login: ")
+name=(input())
+print("Digite sua senha:")
+s=int(input())
+
+if(name=="giovanni"and s==123):
+    print("Acesso Liberado")
+    
+else:
+    print("Acesso Negado")
