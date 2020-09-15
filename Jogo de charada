@@ -1,0 +1,11 @@
+a=""
+
+
+print("O pai do padre é filho unico do meu pai, o que o padre é meu?:")
+
+while a !="filho":
+    
+    a=input("Errou,Tente novamente:")
+    
+else:
+    print("Parabens ,Voce acertou")
