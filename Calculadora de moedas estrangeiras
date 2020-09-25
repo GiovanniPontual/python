@@ -1,0 +1,26 @@
+while True :
+    escolha = int (input("Digite  1 (para libra) , 2 (para dolar) , 3 (para euro) : "))
+
+    if escolha == 1:
+        libra = int(input("Digite o valor em reais : "))
+        valorlibra=libra*7.10
+        print("O valor do iene é: " , valorlibra)
+        resposta = input(("Deseja continuar s/n : "))
+    
+
+    elif escolha == 2:
+        dolar = int(input("Digite o valor em reais : "))
+        valordolar=dolar*5.60
+        print("O valor do dolar é: " , valordolar)
+        resposta = input(("Deseja continuar s/n : "))
+
+    elif escolha == 3 :
+        euro = int(input("Digite o valor em reais : "))
+        valoreuro=euro*6.50 
+        print("O valor do euro é: " , valoreuro)
+        resposta = input(("Deseja continuar s/n : "))
+
+    if resposta == "n":
+            print ("Obrigado por usar nosso aplicativo!!!")
+
+            break
