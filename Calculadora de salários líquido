@@ -1,0 +1,15 @@
+print ("Quanto você ganha por hora ? ")
+hora=float(input())
+
+print("Quantas horas você trabalha no mês ? ")
+dia=float(input())
+salario = hora * dia
+IR=salario*11/100
+INSS=salario*8/100
+Sindicato=salario*5/100
+Salario_liquido=salario-IR-INSS-Sindicato
+print("Salário Bruto : ","%.2f"% salario)
+print("IR 11% : ","%.2f"%IR)
+print("INSS 8%: ", "%.2f"%INSS)
+print("Sindicato 5% : ","%.2f"%Sindicato)
+print("Salário Liquido: ""%.2f"% Salario_liquido)
