@@ -1,0 +1,11 @@
+print("Qual seu nome ? ")
+nome=input()
+print (nome,"Que horas são no momento ? ")
+horario =float(input())
+
+if horario < 12:
+    print("Bom dia",nome)
+elif horario > 12 and horario < 18:
+    print("Boa tarde",nome)
+else:
+    print("Boa noite",nome)
