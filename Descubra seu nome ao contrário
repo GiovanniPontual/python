@@ -1,0 +1,5 @@
+print("Descubra seu nome ao contrário")
+lista1 =list((input("Digite seu nome: ")))
+lista1.reverse()
+lista1='' .join(lista1).upper()
+print(lista1)
