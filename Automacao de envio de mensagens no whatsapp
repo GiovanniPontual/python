@@ -1,0 +1,170 @@
+import pyautogui
+import time
+
+time.sleep(3)
+
+
+#Mensagem 1
+pyautogui.moveTo(255,243)
+pyautogui.click()
+time.sleep(2)
+pyautogui.typewrite("Empreendedores contabeis",interval=0.1)
+pyautogui.press("enter")
+pyautogui.moveTo(631,700)
+pyautogui.click()
+pyautogui.typewrite("Acabei de criar uma automacao , para whatsapp , vou deixar o video aqui no grupo",interval=0.1)
+pyautogui.press('enter')
+
+#Mover o mouse para enviar o video ou imagem para mensagem 1
+time.sleep(2)
+pyautogui.moveTo(482,699)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(481,629)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(77,359)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(351,186)
+pyautogui.doubleClick()
+time.sleep(7)
+pyautogui.press('enter')
+time.sleep(2)
+
+#Mensagem 2
+pyautogui.moveTo(255,243)
+pyautogui.click()
+time.sleep(2)
+pyautogui.typewrite("Fabricando grana",interval=0.1)
+pyautogui.press("enter")
+pyautogui.moveTo(631,700)
+pyautogui.click()
+pyautogui.typewrite("Acabei de criar um envio de mensagens automatica para whatsapp",interval=0.1)
+pyautogui.press('enter')
+pyautogui.typewrite("vou deixar um video aqui no grupo , qualquer duvida pode entrar em contato comigo",interval=0.1)
+pyautogui.press('enter')
+
+#Mover o mouse para enviar o video ou imagem para mensagem 2
+time.sleep(2)
+pyautogui.moveTo(482,699)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(481,629)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(77,359)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(351,186)
+pyautogui.doubleClick()
+time.sleep(7)
+pyautogui.press('enter')
+time.sleep(2)
+
+
+#Mensagem 3
+pyautogui.moveTo(255,243)
+pyautogui.click()
+time.sleep(2)
+pyautogui.typewrite("TI mundial")
+pyautogui.press("enter")
+pyautogui.moveTo(631,700)
+pyautogui.click()
+pyautogui.typewrite("Boa tarde a todos os profissionais  do grupo TI mundial,",interval=0.1)
+pyautogui.press('enter')
+pyautogui.typewrite("Acabei de criar um envio de mensagens automatica para whatsapp",interval=0.1)
+pyautogui.press('enter')
+pyautogui.typewrite("vou deixar um video aqui no grupo , qualquer duvida pode entrar em contato comigo",interval=0.1)
+pyautogui.press('enter')
+
+
+
+#Mover o mouse para enviar o video ou imagem para mensagem 3
+time.sleep(2)
+pyautogui.moveTo(482,699)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(481,629)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(77,359)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(351,186)
+pyautogui.doubleClick()
+time.sleep(7)
+pyautogui.press('enter')
+time.sleep(2)
+
+
+
+#Mensagem 4
+pyautogui.moveTo(255,243)
+pyautogui.click()
+time.sleep(2)
+pyautogui.typewrite("Programadores mundiais",interval=0.1)
+pyautogui.press("enter")
+pyautogui.moveTo(631,700)
+pyautogui.click()
+pyautogui.typewrite("Boa tarde a todos os profissionais  do grupo Programadores mundiais ",interval=0.1)
+pyautogui.press('enter')
+pyautogui.typewrite("Acabei de criar um envio de mensagens automatica para whatsapp",interval=0.1)
+pyautogui.press('enter')
+pyautogui.typewrite("vou deixar um video aqui no grupo , qualquer duvida pode entrar em contato comigo",interval=0.1)
+pyautogui.press('enter')
+
+
+
+#Mover o mouse para enviar o video ou imagem para mensagem 4
+time.sleep(2)
+pyautogui.moveTo(482,699)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(481,629)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(77,359)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(351,186)
+pyautogui.doubleClick()
+time.sleep(7)
+pyautogui.press('enter')
+time.sleep(2)
+
+
+
+#Mensagem 5
+pyautogui.moveTo(255,243)
+pyautogui.click()
+time.sleep(2)
+pyautogui.typewrite("Digital marketing",interval=0.1)
+pyautogui.press("enter")
+pyautogui.moveTo(631,700)
+pyautogui.click()
+pyautogui.typewrite("Boa tarde a todos os profissionais do grupo Digital marketing",interval=0.1)
+pyautogui.press('enter')
+pyautogui.typewrite("Acabei de criar um envio de mensagens automatica para whatsapp",interval=0.1)
+pyautogui.press('enter')
+pyautogui.typewrite("vou deixar um video aqui no grupo , qualquer duvida pode entrar em contato comigo",interval=0.1)
+pyautogui.press('enter')
+
+
+
+#Mover o mouse para enviar o video ou imagem para mensagem 5
+time.sleep(2)
+pyautogui.moveTo(482,699)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(481,629)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(77,359)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(351,186)
+pyautogui.doubleClick()
+time.sleep(7)
+pyautogui.press('enter')
+time.sleep(2)
