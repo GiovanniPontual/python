@@ -1,0 +1,45 @@
+import pyautogui
+import time
+
+
+
+for i in range(3):
+
+    time.sleep(3)
+    pyautogui.click(858, 748)
+    time.sleep(2)
+    pyautogui.rightClick(16, 232)
+    time.sleep(2)
+    pyautogui.click(40, 261)
+    pyautogui.click(805, 747)
+    pyautogui.click(608, 244)
+    pyautogui.hotkey('ctrl', 'v')
+    time.sleep(3)
+    pyautogui.click(736, 313)
+    time.sleep(2)
+    pyautogui.hotkey('ctrl', 'v')
+    pyautogui.press('space')
+    pyautogui.typewrite("Tudo bem \n como faco para \n me candidatar \n as  vagas de tecnologia \n as vagas de estagio  \n sou estudante \n de analise e desenvolvimento de sistemas",
+        interval=0.1)
+    time.sleep(2)
+    pyautogui.click(964,715)
+    time.sleep(2)
+    pyautogui.click(1019, 359)
+    time.sleep(2)
+    #pyautogui.click(782, 413)
+    #time.sleep(2)
+    pyautogui.click(669, 237)
+    time.sleep(2)
+    pyautogui.hotkey('ctrl', 'a')
+    time.sleep(1)
+    pyautogui.press('delete')
+    time.sleep(1)
+    pyautogui.click(857,750)
+    time.sleep(1)
+    pyautogui.click(16,234)
+    pyautogui.rightClick()
+    time.sleep(1)
+    pyautogui.click(94,392)
+    time.sleep(1)
+    pyautogui.click(858, 748)
+    pyautogui.moveTo(921,139)
